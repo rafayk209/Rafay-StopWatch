@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css" />
+   
+  </head>
+
+  <body>
+    <div align='center' class="stopwatch">
+      <h1><span class="stopw" > STOP</span>WATCH</h1>
+      <div class="circle">
+        <span id="minute"> 00  &nbsp; </span>:<span id="second"> 00 &nbsp; </span>:<span id="micro"> 00 </span>
+      </div>
+
+      <div class="controls">
+          <button id="playButton" onclick="start()">PLAY</button>
+          <button id="pauseButton" onclick="pause()">PAUSE </button>
+          <button id="resetButton" onclick="stop()">RESET </button>
+        
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
